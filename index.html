@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--etiqueta para determinar el lenguaje de programación-->
+
+    <head>
+         <title>Página de marmotas</title>
+         <meta charset="UTF-8">
+         <link href="estilos.css" rel="stylesheet">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Sigmar&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Página de marmotas</h1>
+
+        <h3>Imágenes de marmotas</h3>
+
+        <img class="img1" src="https://t1.ea.ltmcdn.com/es/posts/9/1/9/cuanto_duerme_una_marmota_25919_600_square.jpg" width="33.33%"> 
+        <!--imágen desde internet-->
+
+        <img class="img2"src="imagenes/marmota.jpg" width="50%">
+        <!--imágen desde computadora-->
+
+        <p>Si quieres ver más imágenes de marmotas, <a href="https://www.shutterstock.com/es/search/marmota" target="_blank">da click en este enlace</a>.</p>
+        <!--crear un enlace externo-->
+
+        <h4><i>Listas de marmotas</i></h3>
+
+        <p>3 cosas que las marmotas <strong>comen</strong>:</p>
+        <ol>
+            <li>plantas</li>
+            <li>verduras de los jardines</li>
+            <li>animales pequeños</li>
+        </ol>
+        <!--lista ordenada-->
+
+        <p>3 aromas que las marmotas <strong>odian</strong>:</p>
+        <ul>
+            <li>ajo</li>
+            <li>cebolla</li>
+            <li>mostaza</li>
+        </ul>
+        <!--lista desordenada-->
+        
+        <!--formularios-->
+        <form>
+            <p>¿Las marmotas son peligrosas?</p>
+            <label>
+                <input id="sí" type="radio" 
+                value="sí" 
+                name="sí-no" checked>sí
+            </label>
+            <br>
+            <label>
+                <input id="no"
+                type="radio"
+                value="no"
+                name="sí-no">no
+            </label>
+            <p>*Por lo general las marmotas son inofensivas para los humanos o sus mascotas, sin embargo, es posible que porten rabia.</p>
+        <!--formulario con botones de radio-->
+
+        <p>¿Qué marmota eres?</p>
+        <label>
+            <input id="comelona"
+            type="checkbox"
+            value="comelona"
+            name="personalidad">comelona
+        </label>
+        <br>
+        <label>
+            <input id="dormilona"
+            type="checkbox"
+            value="dormilona"
+            name="personalidad">dormilona
+        </label>
+        <!--formulario con casillas de verificación-->
+        </form>
+    </body>
+
+    <footer>
+        <p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a></small></p>
+    </footer>
+</html>

@@ -1,0 +1,42 @@
+body{
+    background-color:#f0f9d4;
+    color:#6e543f;
+    font-family: 'Pangolin', cursive;font-family: 'Sigmar', cursive;
+    text-align:left;
+}
+
+h3, h4{
+    color: #4b362a;
+    font-size:larger
+}
+
+h1{
+    font-size:40px;
+    color:#362a26
+}
+
+p{
+    color:#614c44
+}
+
+img{
+    margin-left:10px;
+    border-style:inherit;
+}
+
+.img1{
+    height:300px;
+    width: 350px;
+    border-style:inherit;
+}
+
+.img2{
+    height:300px;
+    width:500px;
+    border-style:inherit;
+}
+
+a{
+    color:#dc836a
+}
+/*esto es un comentario*/
